@@ -24,3 +24,75 @@ a {
     background: black;
   }
 }
+
+nav {
+
+  justify-content: center;
+  position: fixed;
+  top: 0rem;
+  width: 100%;
+  background-color: inherit;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  z-index: 10
+}
+
+nav span {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 1rem;
+  
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0;
+  padding: 1rem;
+  
+}
+
+nav ul li {
+  list-style-type: none;
+}
+
+nav ul li:not(:last-child) {
+  margin-right: 2rem;
+  
+}
+
+nav ul li a:hover,  nav ul li a button:hover{
+  text-decoration: underline;
+  text-decoration-color: #0070f3;
+  color: #00c6f3;
+  transition: color 0.15s ease, border-color 0.15s ease;
+  cursor: pointer
+}
+
+nav ul li a button {
+  color: yellow;
+  background-color: #0070f3;
+  height: fit-content;
+  border-radius: 5px;
+  padding: 6px;
+}
+
+
+
+
+footer {
+  display: flex;
+  border-top: 1px solid White;
+  justify-content: center;
+}
+
+#intro{
+  z-index: -1;
+}
+
+.read{
+  float: right;
+}
+
