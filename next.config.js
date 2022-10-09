@@ -6,8 +6,8 @@ const nextConfig = {
     domains: ['cdn.pixabay.com', 'images.unsplash.com', 'www.google.com'],
     unoptimized : true,
   },
-  basePath: "/portfolio",
-  assetPrefix: "/portfolio"
+  basePath: "/",
+  assetPrefix: "/"
   }
 
 module.exports = nextConfig
