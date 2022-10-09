@@ -4,7 +4,9 @@ const nextConfig = {
   swcMinify: true,
   images: {
     domains: ['cdn.pixabay.com', 'images.unsplash.com', 'www.google.com'],
-    unoptimized : true
+    unoptimized : true,
+    basePath: "/nextjs-pages",
+    assetPrefix: "/nextjs-pages"
 }
   }
 
