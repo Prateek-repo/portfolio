@@ -4,7 +4,8 @@ const nextConfig = {
   swcMinify: true,
   images: {
     domains: ['cdn.pixabay.com', 'images.unsplash.com', 'www.google.com'],
-  },
+    unoptimized : true
 }
+  }
 
 module.exports = nextConfig
