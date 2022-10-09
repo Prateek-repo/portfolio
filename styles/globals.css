@@ -63,7 +63,7 @@ nav ul li:not(:last-child) {
   
 }
 
-nav ul li a:hover,  nav ul li a button:hover{
+nav ul li a:hover,  nav ul li a button:hover, a:hover{
   text-decoration: underline;
   text-decoration-color: #0070f3;
   color: #00c6f3;
@@ -79,9 +79,6 @@ nav ul li a button {
   padding: 6px;
 }
 
-
-
-
 footer {
   display: flex;
   border-top: 1px solid White;
@@ -96,3 +93,57 @@ footer {
   float: right;
 }
 
+#center_h3{
+  text-align: center;
+}
+
+.skills_logo span{
+  margin: 0.5rem
+}
+
+.card_project{
+  border: 1px solid white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  justify-content: space-around;
+   /* background-image: url("https://cdn.pixabay.com/photo/2018/03/10/18/03/laptop-3214756_960_720.png"); */
+   min-height: 10rem
+
+}
+
+.card_project:not(:last-child) {
+  margin-right: 1rem;
+  
+}
+
+.card_project_content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card_content{
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  justify-content: center;
+  margin: 1rem
+}
+
+.card_desc_title{
+  background-color: rgba(225, 223, 223, 0.56);
+  text-align: center;
+  /* border-top-left-radius: 10px;
+  border-top-right-radius: 10px; */
+  backdrop-filter: blur(0.5rem);
+}
+
+.card_desc_bg{
+  background-color: rgba(225, 223, 223, 0.56);
+  text-align: center;
+  /* border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px; */
+  backdrop-filter: blur(0.5rem);
+}

@@ -10,7 +10,6 @@ const Introduction = () => {
       <div>
         <div className={`${styles.main} ${styles.Introduction_div}`}>
           <div>
-            {" "}
             <div>
               <h1 className={styles.title}>Hi, My name is Prateek Kumar</h1>
               <p className={styles.description}>

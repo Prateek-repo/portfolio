@@ -5,7 +5,7 @@ import styles from '../styles/Home.module.css'
 const Footer = () => {
     return <Fragment>
         <footer className={`${styles.footer} ${styles.container}`} id='footer'>
-            <ul>
+            {/* <ul>
             <span className={styles.logo}>
             <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
           </span>
@@ -15,7 +15,8 @@ const Footer = () => {
                 <Link href={'/'}><a><li>Skills</li></a></Link>
                 <Link href={'/'}><a><li>Projects</li></a></Link>
                 <Link href={'/'}><a><li>Contact Me</li></a></Link>
-            </ul>
+            </ul> */}
+            <Link href={'/'}>To Top</Link>
         </footer>
     </Fragment>
 }
