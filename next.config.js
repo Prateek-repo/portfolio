@@ -5,8 +5,8 @@ const nextConfig = {
   images: {
     domains: ['cdn.pixabay.com', 'images.unsplash.com', 'www.google.com'],
     unoptimized : true,
-    basePath: "/nextjs-pages",
-    assetPrefix: "/nextjs-pages"
+    basePath: "/portfolio",
+    assetPrefix: "/portfolio"
 }
   }
 
