@@ -16,7 +16,7 @@ const Footer = () => {
                 <Link href={'/'}><a><li>Projects</li></a></Link>
                 <Link href={'/'}><a><li>Contact Me</li></a></Link>
             </ul> */}
-            <Link href={'/'}>To Top</Link>
+            <Link href={'/portfolio/'}>To Top</Link>
         </footer>
     </Fragment>
 }

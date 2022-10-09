@@ -25,22 +25,22 @@ const Navbar = () => {
           </span>
           <ul>
             <li>
-              <Link href={"/#experience"}>
+              <Link href={"/portfolio/#experience"}>
                 <a>Experience</a>
               </Link>
             </li>
             <li>
-              <Link href={"/#skills"}>
+              <Link href={"/portfolio/#skills"}>
                 <a>Skills</a>
               </Link>
             </li>
             <li>
-              <Link href={"/#projects"}>
+              <Link href={"/portfolio/#projects"}>
                 <a>Projects</a>
               </Link>
             </li>
             <li>
-              <Link href={"/#contactme"}>
+              <Link href={"/portfolio/#contactme"}>
                 <a>
                   <button>Contact Me</button>
                 </a>
